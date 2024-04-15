@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario de Registro</title>
+<link rel="stylesheet" href="../CSS/datosPersonales.css/../styles.css">
+</head>
+<body>
+
+    <div class="container">
+    <!------------------------------------------------>
+        <h2>Datos Personales</h2>
+        <div class="separador">
+            <hr />
+            <span> 0 </span>
+            <hr />
+        </div>
+        <br>
+    <!------------------------------------------------>
+        <form id="formulario1" >
+            <div class="grupo">
+                <label for="nombre">Nombre Completo*</label>
+                <input type="text" clase="nombre" name="nombre" required>
+            </div>
+            <!------------------------------------------------>
+            <div class="grupo">
+                <label for="apellido">Apellido*</label>
+                <input type="text" clase="apellido" name="apellido" required>
+            </div>
+            <!------------------------------------------------>
+            <div class="grupo">
+                <label for="edad">Edad*</label>
+                <input type="number" clase="edad" name="edad" required>
+            </div>
+            <!------------------------------------------------>
+            <div class="grupo">
+                <label for="fecha_nacimiento">Fecha de Nacimiento*</label>
+                <input type="date" clase="fecha_nacimiento" name="fecha_nacimiento" required>
+            </div>
+            <!------------------------------------------------>
+            <div class="grupoGenero">
+                <p>Genero*
+                    <br>
+                    <input type="radio" name="hm" value="1"> Masculino
+                    <br>
+                    <input type="radio" name="hm" value="2"> Femenino
+                    <br>
+                    <input type="radio" name="hm" value="3"> Otro
+                </p>
+            </div>
+            <!------------------------------------------------>
+            <div class="grupo">
+                <label for="correo">Correo Electrónico*</label>
+                <input type="email" clase="correo" name="correo" required>
+                <label for="confirmar_correo">Confirmar Correo Electrónico*</label>
+                <input type="email" clase="confirmar_correo" name="confirmar_correo" required>
+            </div>
+            <!------------------------------------------------>
+            <div class="grupo">
+                <label for="lugar_residencia">Lugar de Residencia*</label>
+                <input type="text" clase="lugar_residencia" name="lugar_residencia" required>
+            </div>
+            <!------------------------------------------------>
+            <div class="grupo">
+                <label for="telefono">Teléfono*</label>
+                <input type="tel" clase="telefono" name="telefono" required>
+            </div>
+            <!------------------------------------------------>
+            <button type="button">Continuar</button>
+        </form>
+
+    </div>
+
+</body>
+</html>
